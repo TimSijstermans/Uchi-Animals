@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Uchi Animals</string>
+    <string name="action_settings">Settings</string>
+    <string name="Button" />
+    <string name="Emblem" />
+    <string name="currentCoins">1.037</string>
+    <string name="storeTitle">Store</string>
+    <string name="invenTitle">Inventory</string>
+    <string name="wishList">Wishlist</string>
+    <string name="currency">Buy currency</string>
+    <string name="opt_tf">Options</string>
+    <string name="sound_tf">Sound</string>
+    <string name="music_tf">Music:</string>
+    <string name="sfx_tf">SFX:</string>
+    <string name="lang_tf">Language</string>
+    <string name="nl_tf">NL</string>
+    <string name="en_tf">EN</string>
+    <string name="conmode_tf">Conference mode</string>
+    <string name="cononoff_tf">ON/OFF</string>
+    <string name="optionsTitle">Options</string>
+    <string name="Buy">Buy</string>
+    <string name="Wishlist">Wishlist</string>
+    <string name="Description">Description</string>
+    <string name="Properties">Properties</string>
+    <string name="success">Success!</string>
+    <string name="music_error">Music player crashed</string>
+    <string name="description_dutch">Dutch</string>
+    <string name="description_english">English</string>
+    
+	<string name="NoConnection">Connection failure. Please check your internet connection.</string>
+    <string name="NoDatabase">The store requires a internet connection on first startup.</string>
+    <string name="confirmMessage">Are you sure you want to buy this item?</string>
+    <string name="confirmMessagePositive">Yes</string>
+    <string name="confirmMessageNegative">No</string>
+    <string name="save_options">Save</string>
+	<string name="notEnoughMoney">Not enough coins!</string>
+    
+    <string name="itemTag">Bought</string>
+    <string name="firstOpen">On first startup this app requires an internet connection</string>
+    <string name="confirmFirstOpener">Okay</string>
+    <string name="noItems">No items</string>
+
+    <string name="itemEquiped">Equipped</string>
+    <string name="itemNotEquiped">Not Equipped</string>
+    
+    <string name="networkTitle">Network</string>
+    <string name="app_id">587576081265593</string>
+    <string name="loginUser">When sharing a message on Facebook, this app will authorize with your Facebook account.</string>
+    <string name="sharePost">Share</string>
+    <string name="shareMessageHint">Share progress on Facebook</string>
+    <string name="facebookPost">Message sent using the Uchi Animals app</string>
+
+    <string name="sharePopup">Share with</string>
+    <string name="title_activity_bluetooth">Bluetooth</string>
+    <string name="paired_devices">Found devices</string>
+ 	<string name="find_devices">Find devices</string>
+    <string name="bluetooth_error">Sorry, your device does not support bluetooth</string>
+    
+    <string name="DatabaseStillSyncing">Database is still syncing. Please wait</string>
+    <string name="notificationMsg">Your pet is hungry!</string>
+    
+   	<string name="categoryCoinHeader">Buy new coins</string>
+	<string name="categoryImproveHeader">All boost elements</string>
+	<string name="categoryAccesHeader">Buy new accessories</string>
+	<string name="categoryAnimalHeader">Buy new animals</string>
+	<string name="categoryCurrentHeader">All items for current pet</string>
+    
+</resources>

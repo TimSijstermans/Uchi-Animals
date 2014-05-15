@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/gradient_bg"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/invenTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:background="#000000"
+        android:baselineAligned="false"
+        android:orientation="horizontal"
+        android:weightSum="5" >
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal" >
+
+            <ImageButton
+                android:id="@+id/backBtn"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginBottom="2dp"
+                android:layout_marginLeft="2dp"
+                android:layout_marginTop="2dp"
+                android:background="@drawable/backbtn"
+                android:contentDescription="@string/Button"
+                android:onClick="onBackClicked" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="3"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/Title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/invenTitle"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textSize="17pt" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/exitBtn"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_gravity="right"
+                android:layout_marginBottom="2dp"
+                android:layout_marginRight="2dp"
+                android:layout_marginTop="5dp"
+                android:contentDescription="@string/Button"
+                android:onClick="onExitClick"
+                android:src="@drawable/exitbtn" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/invenLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/invenTitle"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/scroll_view_border"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/filterLayout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="1dp"
+            android:layout_marginRight="1dp"
+            android:layout_marginTop="1dp"
+            android:background="#000000"
+            android:orientation="horizontal"
+            android:weightSum="4" >
+
+            <ImageView
+                android:id="@+id/filterCurrent"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:contentDescription="@string/Button"
+                android:onClick="onCategorySelect"
+                android:scaleType="fitXY"
+                android:src="@drawable/shirt"
+                android:textOff=""
+                android:textOn="" />
+
+            <ImageView
+                android:id="@+id/filterAnimal"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:contentDescription="@string/Button"
+                android:onClick="onCategorySelect"
+                android:scaleType="fitXY"
+                android:src="@drawable/paw"
+                android:textOff=""
+                android:textOn="" />
+
+            <ImageView
+                android:id="@+id/filterAcces"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:contentDescription="@string/Button"
+                android:onClick="onCategorySelect"
+                android:scaleType="fitXY"
+                android:src="@drawable/acces"
+                android:textOff=""
+                android:textOn="" />
+
+            <ImageView
+                android:id="@+id/filterImprove"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:contentDescription="@string/Button"
+                android:onClick="onCategorySelect"
+                android:scaleType="fitXY"
+                android:src="@drawable/improv"
+                android:textOff=""
+                android:textOn="" />
+        </LinearLayout>
+
+        <ListView
+            android:id="@+id/listView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/filterLayout"
+            android:layout_alignParentBottom="true"
+            android:layout_alignRight="@+id/filterLayout"
+            android:layout_below="@+id/filterLayout"
+            android:layout_marginBottom="1dp"
+            android:background="#FFFFFF"
+            android:dividerHeight="1dp"
+            android:listSelector="@drawable/list_selector" >
+        </ListView>
+
+        <TextView
+            android:id="@+id/emptyListView"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_below="@+id/filterLayout"
+            android:background="#FFFFFF"
+            android:gravity="center"
+            android:text="@string/noItems"
+            android:textSize="24sp"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/header"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/invenLayout"
+        android:layout_alignRight="@+id/invenLayout"
+        android:layout_below="@+id/invenTitle"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:text="All accessoires"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#000000" />
+
+</RelativeLayout>

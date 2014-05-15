@@ -1,0 +1,1018 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.1.3" icons="true" automaticImage="PNG" always-add-relationships="false" generalizations="true" 
+  realizations="true" associations="true" dependencies="false" nesting-relationships="true">  
+  <enumeration id="1" language="java" name="com.uchi.Database.BackEnd.DBConfig.Mode" project="Uchi Animals" 
+    file="/Uchi Animals/src/com/uchi/Database/BackEnd/DBConfig.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="117" width="131" x="4459" y="626"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </enumeration>  
+  <class id="2" language="java" name="com.uchi.Database.BackEnd.Internal.Tables.AnimalKindTable" project="Uchi Animals" 
+    file="/Uchi Animals/src/com/uchi/Database/BackEnd/Internal/Tables/AnimalKindTable.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="189" width="216" x="56" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="3" language="java" name="com.uchi.Database.BackEnd.Internal.DAO.DataAccesObject" project="Uchi Animals" 
+    file="/Uchi Animals/src/com/uchi/Database/BackEnd/Internal/DAO/DataAccesObject.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="189" width="264" x="2744" y="626"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="4" language="java" name="com.uchi.Database.BackEnd.Objects.AnimalKind" project="Uchi Animals" 
+    file="/Uchi Animals/src/com/uchi/Database/BackEnd/Objects/AnimalKind.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="189" width="166" x="5395" y="1341"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="5" language="java" name="com.uchi.uchianimals.SplashScreen" project="Uchi Animals" 
+    file="/Uchi Animals/src/com/uchi/uchianimals/SplashScreen.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="351" width="240" x="4265" y="3131"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="6" language="java" name="com.uchi.uchianimals.MainActivity" project="Uchi Animals" 
+    file="/Uchi Animals/src/com/uchi/uchianimals/MainActivity.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="549" width="223" x="3638" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="7" language="java" name="com.uchi.Database.BackEnd.Internal.DAO.PropertiesDAO" project="Uchi Animals" 
+    file="/Uchi Animals/src/com/uchi/Database/BackEnd/Internal/DAO/PropertiesDAO.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="135" width="275" x="1615" y="1341"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="8" language="java" name="com.uchi.Database.BackEnd.Internal.Tables.UserPetsTable" project="Uchi Animals" 
+    file="/Uchi Animals/src/com/uchi/Database/BackEnd/Internal/Tables/UserPetsTable.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="225" width="216" x="325" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <enumeration id="9" language="java" name="com.uchi.Database.BackEnd.Internal.DAO.ItemsDAO.Categorys" 
+    project="Uchi Animals" file="/Uchi Animals/src/com/uchi/Database/BackEnd/Internal/DAO/ItemsDAO.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="261" width="239" x="2811" y="2038"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </enumeration>  
+  <class id="10" language="java" name="com.uchi.Database.BackEnd.DBConfig" project="Uchi Animals" 
+    file="/Uchi Animals/src/com/uchi/Database/BackEnd/DBConfig.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="171" width="131" x="4459" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="11" language="java" name="com.uchi.Database.BackEnd.Internal.Tables.UserItemsTable" project="Uchi Animals" 
+    file="/Uchi Animals/src/com/uchi/Database/BackEnd/Internal/Tables/UserItemsTable.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="225" width="216" x="593" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="12" language="java" name="com.uchi.Database.BackEnd.Internal.InternalDatabaseConnector" 
+    project="Uchi Animals" file="/Uchi Animals/src/com/uchi/Database/BackEnd/Internal/InternalDatabaseConnector.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="189" width="261" x="1930" y="1341"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="13" language="java" name="com.uchi.Database.BackEnd.Objects.User" project="Uchi Animals" 
+    file="/Uchi Animals/src/com/uchi/Database/BackEnd/Objects/User.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="243" width="166" x="5149" y="2038"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="14" language="java" name="com.uchi.uchianimals.SwipeBuilder" project="Uchi Animals" 
+    file="/Uchi Animals/src/com/uchi/uchianimals/SwipeBuilder.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="369" width="339" x="3048" y="626"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="15" language="java" name="com.uchi.Database.BackEnd.DatabaseConnector" project="Uchi Animals" 
+    file="/Uchi Animals/src/com/uchi/Database/BackEnd/DatabaseConnector.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="387" width="322" x="3505" y="3131"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="16" language="java" name="com.uchi.Database.BackEnd.Objects.Category" project="Uchi Animals" 
+    file="/Uchi Animals/src/com/uchi/Database/BackEnd/Objects/Category.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="189" width="171" x="5601" y="1341"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="17" language="java" name="com.uchi.Database.BackEnd.Objects.Propertie" project="Uchi Animals" 
+    file="/Uchi Animals/src/com/uchi/Database/BackEnd/Objects/Propertie.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="189" width="186" x="5355" y="2038"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="18" language="java" name="com.uchi.animations.BlinkAnim" project="Uchi Animals" 
+    file="/Uchi Animals/src/com/uchi/animations/BlinkAnim.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="171" width="171" x="3427" y="626"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="19" language="java" name="com.uchi.animations.FoodAnim" project="Uchi Animals" 
+    file="/Uchi Animals/src/com/uchi/animations/FoodAnim.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="225" width="256" x="42" y="1341"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="20" language="java" name="com.uchi.uchianimals.storeListAdapter" project="Uchi Animals" 
+    file="/Uchi Animals/src/com/uchi/uchianimals/storeListAdapter.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="225" width="278" x="5080" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="21" language="java" name="com.uchi.animations.Animations" project="Uchi Animals" 
+    file="/Uchi Animals/src/com/uchi/animations/Animations.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="243" width="152" x="338" y="626"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="22" language="java" name="com.uchi.Database.BackEnd.Internal.DAO.CategoryDAO" project="Uchi Animals" 
+    file="/Uchi Animals/src/com/uchi/Database/BackEnd/Internal/DAO/CategoryDAO.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="153" width="259" x="2241" y="1341"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="23" language="java" name="com.uchi.uchianimals.StoreDetail" project="Uchi Animals" 
+    file="/Uchi Animals/src/com/uchi/uchianimals/StoreDetail.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="549" width="192" x="4976" y="626"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="24" language="java" name="com.uchi.Database.BackEnd.Internal.DAO.AnimalKindDAO" project="Uchi Animals" 
+    file="/Uchi Animals/src/com/uchi/Database/BackEnd/Internal/DAO/AnimalKindDAO.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="117" width="259" x="2540" y="1341"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="25" language="java" name="com.uchi.Database.BackEnd.AsyncTaskCompleteListener" project="Uchi Animals" 
+    file="/Uchi Animals/src/com/uchi/Database/BackEnd/AsyncTaskCompleteListener.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="135" width="216" x="4225" y="3558"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="26" language="java" name="com.uchi.uchianimals.Inventory" project="Uchi Animals" 
+    file="/Uchi Animals/src/com/uchi/uchianimals/Inventory.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="99" width="134" x="4481" y="2038"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="27" language="java" name="com.uchi.Database.BackEnd.Internal.DAO.PetDAO" project="Uchi Animals" 
+    file="/Uchi Animals/src/com/uchi/Database/BackEnd/Internal/DAO/PetDAO.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="243" width="259" x="2839" y="1341"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="28" language="java" name="com.uchi.Database.BackEnd.Internal.DAO.ItemPropertiesDAO" project="Uchi Animals" 
+    file="/Uchi Animals/src/com/uchi/Database/BackEnd/Internal/DAO/ItemPropertiesDAO.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="117" width="259" x="3138" y="1341"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="29" language="java" name="com.uchi.Database.BackEnd.Internal.Tables.PetTable" project="Uchi Animals" 
+    file="/Uchi Animals/src/com/uchi/Database/BackEnd/Internal/Tables/PetTable.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="261" width="216" x="860" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="30" language="java" name="com.uchi.pets.CatClass" project="Uchi Animals" 
+    file="/Uchi Animals/src/com/uchi/pets/CatClass.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="81" width="87" x="868" y="3131"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="31" language="java" name="com.uchi.animations.DragBuilder" project="Uchi Animals" 
+    file="/Uchi Animals/src/com/uchi/animations/DragBuilder.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="675" width="287" x="802" y="626"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="32" language="java" name="com.uchi.uchianimals.Options" project="Uchi Animals" 
+    file="/Uchi Animals/src/com/uchi/uchianimals/Options.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="297" width="169" x="1126" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="33" language="java" name="com.uchi.Database.BackEnd.Objects.UserPet" project="Uchi Animals" 
+    file="/Uchi Animals/src/com/uchi/Database/BackEnd/Objects/UserPet.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="297" width="166" x="5812" y="1341"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="34" language="java" name="com.uchi.Database.BackEnd.Objects.PetItem" project="Uchi Animals" 
+    file="/Uchi Animals/src/com/uchi/Database/BackEnd/Objects/PetItem.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="243" width="166" x="6018" y="1341"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="35" language="java" name="com.uchi.pets.PetClass" project="Uchi Animals" 
+    file="/Uchi Animals/src/com/uchi/pets/PetClass.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="1053" width="235" x="802" y="2038"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="36" language="java" name="com.uchi.animations.PlayAnim" project="Uchi Animals" 
+    file="/Uchi Animals/src/com/uchi/animations/PlayAnim.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="387" width="424" x="802" y="1341"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="37" language="java" name="com.uchi.Database.BackEnd.Internal.DAO.ItemsDAO" project="Uchi Animals" 
+    file="/Uchi Animals/src/com/uchi/Database/BackEnd/Internal/DAO/ItemsDAO.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="351" width="309" x="1266" y="1341"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="38" language="java" name="com.uchi.uchianimals.NotificationService" project="Uchi Animals" 
+    file="/Uchi Animals/src/com/uchi/uchianimals/NotificationService.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="171" width="177" x="1344" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="39" language="java" name="com.uchi.uchianimals.FacebookConnectActivity.PostToWall" project="Uchi Animals" 
+    file="/Uchi Animals/src/com/uchi/uchianimals/FacebookConnectActivity.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="117" width="188" x="5670" y="626"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="40" language="java" name="com.uchi.animations.HygieneAnim" project="Uchi Animals" 
+    file="/Uchi Animals/src/com/uchi/animations/HygieneAnim.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="333" width="424" x="338" y="1341"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="41" language="java" name="com.uchi.uchianimals.AlarmReceiver" project="Uchi Animals" 
+    file="/Uchi Animals/src/com/uchi/uchianimals/AlarmReceiver.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="99" width="174" x="1569" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <enumeration id="42" language="java" name="com.uchi.Database.BackEnd.DatabaseConnector.QueryType" 
+    project="Uchi Animals" file="/Uchi Animals/src/com/uchi/Database/BackEnd/DatabaseConnector.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="135" width="153" x="3505" y="3558"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </enumeration>  
+  <class id="43" language="java" name="com.uchi.Database.BackEnd.Internal.Tables.ItemTable" project="Uchi Animals" 
+    file="/Uchi Animals/src/com/uchi/Database/BackEnd/Internal/Tables/ItemTable.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="279" width="216" x="1790" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="44" language="java" name="com.uchi.Database.BackEnd.Objects.DatabaseData" project="Uchi Animals" 
+    file="/Uchi Animals/src/com/uchi/Database/BackEnd/Objects/DatabaseData.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="81" width="166" x="5355" y="626"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="45" language="java" name="com.uchi.Database.BackEnd.Objects.UserItem" project="Uchi Animals" 
+    file="/Uchi Animals/src/com/uchi/Database/BackEnd/Objects/UserItem.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="297" width="166" x="6224" y="1341"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="46" language="java" name="com.uchi.uchianimals.storeListAdapter.ViewHolder" project="Uchi Animals" 
+    file="/Uchi Animals/src/com/uchi/uchianimals/storeListAdapter.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="153" width="131" x="4805" y="626"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="47" language="java" name="com.uchi.uchianimals.Store" project="Uchi Animals" 
+    file="/Uchi Animals/src/com/uchi/uchianimals/Store.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="279" width="216" x="4225" y="2038"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="48" language="java" name="com.uchi.Database.BackEnd.Objects.Pet" project="Uchi Animals" 
+    file="/Uchi Animals/src/com/uchi/Database/BackEnd/Objects/Pet.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="567" width="169" x="5144" y="1341"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="49" language="java" name="com.uchi.Database.BackEnd.Internal.Tables.PropertieTable" project="Uchi Animals" 
+    file="/Uchi Animals/src/com/uchi/Database/BackEnd/Internal/Tables/PropertieTable.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="189" width="216" x="2052" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="50" language="java" name="com.uchi.Database.BackEnd.Objects.ItemPropertie" project="Uchi Animals" 
+    file="/Uchi Animals/src/com/uchi/Database/BackEnd/Objects/ItemPropertie.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="243" width="166" x="6430" y="1341"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="51" language="java" name="com.uchi.animations.FragBuilder" project="Uchi Animals" 
+    file="/Uchi Animals/src/com/uchi/animations/FragBuilder.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="279" width="313" x="3638" y="626"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="52" language="java" name="com.uchi.Database.BackEnd.Internal.DAO.UserPetsDAO" project="Uchi Animals" 
+    file="/Uchi Animals/src/com/uchi/Database/BackEnd/Internal/DAO/UserPetsDAO.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="153" width="259" x="3437" y="1341"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="53" language="java" name="com.uchi.Database.BackEnd.Internal.DAO.UserItemsDAO" project="Uchi Animals" 
+    file="/Uchi Animals/src/com/uchi/Database/BackEnd/Internal/DAO/UserItemsDAO.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="153" width="259" x="3736" y="1341"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="54" language="java" name="com.uchi.animations.ClothingAnim" project="Uchi Animals" 
+    file="/Uchi Animals/src/com/uchi/animations/ClothingAnim.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="171" width="303" x="3991" y="626"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="55" language="java" name="com.uchi.Database.BackEnd.Internal.Tables.PetItemsTable" project="Uchi Animals" 
+    file="/Uchi Animals/src/com/uchi/Database/BackEnd/Internal/Tables/PetItemsTable.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="207" width="216" x="2314" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="56" language="java" name="com.uchi.Database.BackEnd.Internal.DAO.PetItemsDAO" project="Uchi Animals" 
+    file="/Uchi Animals/src/com/uchi/Database/BackEnd/Internal/DAO/PetItemsDAO.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="117" width="259" x="4035" y="1341"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="57" language="java" name="com.uchi.animations.MoveAnimalAnim" project="Uchi Animals" 
+    file="/Uchi Animals/src/com/uchi/animations/MoveAnimalAnim.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="99" width="231" x="2575" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="58" language="java" name="com.uchi.uchianimals.BaseListActivity" project="Uchi Animals" 
+    file="/Uchi Animals/src/com/uchi/uchianimals/BaseListActivity.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="207" width="209" x="4355" y="1341"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="59" language="java" name="com.uchi.Database.BackEnd.Internal.Tables.ItemPropertieTable" 
+    project="Uchi Animals" file="/Uchi Animals/src/com/uchi/Database/BackEnd/Internal/Tables/ItemPropertieTable.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="207" width="226" x="2850" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="60" language="java" name="com.uchi.Database.BackEnd.Internal.DAO.UsersDAO" project="Uchi Animals" 
+    file="/Uchi Animals/src/com/uchi/Database/BackEnd/Internal/DAO/UsersDAO.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="207" width="259" x="4604" y="1341"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="61" language="java" name="com.uchi.Database.BackEnd.Statement" project="Uchi Animals" 
+    file="/Uchi Animals/src/com/uchi/Database/BackEnd/Statement.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="261" width="337" x="3867" y="3131"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="62" language="java" name="com.uchi.uchianimals.FacebookConnectActivity.LoginDialogListener" 
+    project="Uchi Animals" file="/Uchi Animals/src/com/uchi/uchianimals/FacebookConnectActivity.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="153" width="211" x="5898" y="626"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="63" language="java" name="com.uchi.Database.BackEnd.Internal.Tables.CategoryTable" project="Uchi Animals" 
+    file="/Uchi Animals/src/com/uchi/Database/BackEnd/Internal/Tables/CategoryTable.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="189" width="216" x="3119" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="64" language="java" name="com.uchi.Database.BackEnd.Internal.Tables.UsersTable" project="Uchi Animals" 
+    file="/Uchi Animals/src/com/uchi/Database/BackEnd/Internal/Tables/UsersTable.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="207" width="216" x="3378" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="65" language="java" name="com.uchi.uchianimals.FacebookConnectActivity" project="Uchi Animals" 
+    file="/Uchi Animals/src/com/uchi/uchianimals/FacebookConnectActivity.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="351" width="211" x="5670" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="66" language="java" name="com.uchi.pets.BrownDog" project="Uchi Animals" 
+    file="/Uchi Animals/src/com/uchi/pets/BrownDog.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="369" width="146" x="736" y="3558"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="67" language="java" name="com.uchi.pets.DogClass" project="Uchi Animals" 
+    file="/Uchi Animals/src/com/uchi/pets/DogClass.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="99" width="92" x="736" y="3131"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="68" language="java" name="com.uchi.Database.BackEnd.Objects.Item" project="Uchi Animals" 
+    file="/Uchi Animals/src/com/uchi/Database/BackEnd/Objects/Item.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="657" width="201" x="4903" y="1341"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <association id="69">    
+    <end type="SOURCE" refId="47" navigable="false">      
+      <attribute id="70" name="storeSync"/>      
+      <multiplicity id="71" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="61" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="72">    
+    <end type="SOURCE" refId="37"/>    
+    <end type="TARGET" refId="3"/>  
+  </generalization>  
+  <nesting id="73">    
+    <end type="SOURCE" refId="15"/>    
+    <end type="TARGET" refId="42"/>  
+  </nesting>  
+  <generalization id="74">    
+    <end type="SOURCE" refId="47"/>    
+    <end type="TARGET" refId="58"/>  
+  </generalization>  
+  <association id="75">    
+    <end type="SOURCE" refId="3" navigable="false">      
+      <attribute id="76" name="dbConnector"/>      
+      <multiplicity id="77" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="12" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="78">    
+    <end type="SOURCE" refId="53"/>    
+    <end type="TARGET" refId="3"/>  
+  </generalization>  
+  <nesting id="79">    
+    <end type="SOURCE" refId="20"/>    
+    <end type="TARGET" refId="46"/>  
+  </nesting>  
+  <association id="80">    
+    <end type="SOURCE" refId="6" navigable="false">      
+      <attribute id="81" name="boughtItems"/>      
+      <multiplicity id="82" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="44" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="83">    
+    <end type="SOURCE" refId="30"/>    
+    <end type="TARGET" refId="35"/>  
+  </generalization>  
+  <generalization id="84">    
+    <bendpoint x="5364" y="1341"/>    
+    <end type="SOURCE" refId="17"/>    
+    <end type="TARGET" refId="44"/>  
+  </generalization>  
+  <generalization id="85">    
+    <bendpoint x="5343" y="1341"/>    
+    <end type="SOURCE" refId="13"/>    
+    <end type="TARGET" refId="44"/>  
+  </generalization>  
+  <association id="86">    
+    <end type="SOURCE" refId="65" navigable="false">      
+      <attribute id="87" name="post"/>      
+      <multiplicity id="88" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="39" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="89">    
+    <end type="SOURCE" refId="60"/>    
+    <end type="TARGET" refId="3"/>  
+  </generalization>  
+  <association id="90">    
+    <end type="SOURCE" refId="12" navigable="false">      
+      <attribute id="91" name="mInstance"/>      
+      <multiplicity id="92" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="12" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="93">    
+    <end type="SOURCE" refId="26"/>    
+    <end type="TARGET" refId="58"/>  
+  </generalization>  
+  <association id="94">    
+    <end type="SOURCE" refId="61" navigable="false">      
+      <attribute id="95" name="context"/>      
+      <multiplicity id="96" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="25" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="97">    
+    <end type="SOURCE" refId="15" navigable="false">      
+      <attribute id="98" name="queryType"/>      
+      <multiplicity id="99" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="42" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="100">    
+    <end type="SOURCE" refId="19"/>    
+    <end type="TARGET" refId="21"/>  
+  </generalization>  
+  <generalization id="101">    
+    <end type="SOURCE" refId="7"/>    
+    <end type="TARGET" refId="3"/>  
+  </generalization>  
+  <generalization id="102">    
+    <end type="SOURCE" refId="24"/>    
+    <end type="TARGET" refId="3"/>  
+  </generalization>  
+  <generalization id="103">    
+    <end type="SOURCE" refId="52"/>    
+    <end type="TARGET" refId="3"/>  
+  </generalization>  
+  <generalization id="104">    
+    <end type="SOURCE" refId="56"/>    
+    <end type="TARGET" refId="3"/>  
+  </generalization>  
+  <generalization id="105">    
+    <end type="SOURCE" refId="33"/>    
+    <end type="TARGET" refId="44"/>  
+  </generalization>  
+  <association id="106">    
+    <end type="SOURCE" refId="10" navigable="false">      
+      <attribute id="107" name="mode"/>      
+      <multiplicity id="108" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="1" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <nesting id="109">    
+    <end type="SOURCE" refId="37"/>    
+    <end type="TARGET" refId="9"/>  
+  </nesting>  
+  <generalization id="110">    
+    <end type="SOURCE" refId="50"/>    
+    <end type="TARGET" refId="44"/>  
+  </generalization>  
+  <generalization id="111">    
+    <end type="SOURCE" refId="48"/>    
+    <end type="TARGET" refId="44"/>  
+  </generalization>  
+  <generalization id="112">    
+    <end type="SOURCE" refId="22"/>    
+    <end type="TARGET" refId="3"/>  
+  </generalization>  
+  <generalization id="113">    
+    <end type="SOURCE" refId="40"/>    
+    <end type="TARGET" refId="21"/>  
+  </generalization>  
+  <realization id="114">    
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="25"/>  
+  </realization>  
+  <generalization id="115">    
+    <end type="SOURCE" refId="16"/>    
+    <end type="TARGET" refId="44"/>  
+  </generalization>  
+  <association id="116">    
+    <end type="SOURCE" refId="68" navigable="false">      
+      <attribute id="117" name="properties"/>      
+      <multiplicity id="118" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="17" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="119">    
+    <end type="SOURCE" refId="68"/>    
+    <end type="TARGET" refId="44"/>  
+  </generalization>  
+  <nesting id="120">    
+    <end type="SOURCE" refId="65"/>    
+    <end type="TARGET" refId="62"/>  
+  </nesting>  
+  <realization id="121">    
+    <bendpoint x="4234" y="3131"/>    
+    <end type="SOURCE" refId="47"/>    
+    <end type="TARGET" refId="25"/>  
+  </realization>  
+  <generalization id="122">    
+    <end type="SOURCE" refId="66"/>    
+    <end type="TARGET" refId="67"/>  
+  </generalization>  
+  <association id="123">    
+    <bendpoint x="4324" y="626"/>    
+    <bendpoint x="4324" y="1341"/>    
+    <end type="SOURCE" refId="6" navigable="false">      
+      <attribute id="124" name="myPet"/>      
+      <multiplicity id="125" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="35" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="126">    
+    <end type="SOURCE" refId="27"/>    
+    <end type="TARGET" refId="3"/>  
+  </generalization>  
+  <nesting id="127">    
+    <end type="SOURCE" refId="10"/>    
+    <end type="TARGET" refId="1"/>  
+  </nesting>  
+  <generalization id="128">    
+    <end type="SOURCE" refId="67"/>    
+    <end type="TARGET" refId="35"/>  
+  </generalization>  
+  <association id="129">    
+    <end type="SOURCE" refId="6" navigable="false">      
+      <attribute id="130" name="clothingAnim"/>      
+      <multiplicity id="131" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="54" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="132">    
+    <end type="SOURCE" refId="6" navigable="false">      
+      <attribute id="133" name="adapter"/>      
+      <multiplicity id="134" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="14" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="135">    
+    <end type="SOURCE" refId="23" navigable="false">      
+      <attribute id="136" name="userDAO"/>      
+      <multiplicity id="137" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="60" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="138">    
+    <end type="SOURCE" refId="58" navigable="false">      
+      <attribute id="139" name="selectedCategory"/>      
+      <multiplicity id="140" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="9" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="141">    
+    <end type="SOURCE" refId="40" navigable="false">      
+      <attribute id="142" name="myPet"/>      
+      <multiplicity id="143" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="35" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="144">    
+    <end type="SOURCE" refId="28"/>    
+    <end type="TARGET" refId="3"/>  
+  </generalization>  
+  <association id="145">    
+    <end type="SOURCE" refId="6" navigable="false">      
+      <attribute id="146" name="fragBuilder"/>      
+      <multiplicity id="147" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="51" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="148">    
+    <end type="SOURCE" refId="31" navigable="false">      
+      <attribute id="149" name="playAnim"/>      
+      <multiplicity id="150" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="36" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="151">    
+    <end type="SOURCE" refId="36"/>    
+    <end type="TARGET" refId="21"/>  
+  </generalization>  
+  <association id="152">    
+    <end type="SOURCE" refId="31" navigable="false">      
+      <attribute id="153" name="hygieneAnim"/>      
+      <multiplicity id="154" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="40" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="155">    
+    <end type="SOURCE" refId="36" navigable="false">      
+      <attribute id="156" name="myPet"/>      
+      <multiplicity id="157" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="35" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="158">    
+    <end type="SOURCE" refId="34"/>    
+    <end type="TARGET" refId="44"/>  
+  </generalization>  
+  <association id="159">    
+    <end type="SOURCE" refId="19" navigable="false">      
+      <attribute id="160" name="myPet"/>      
+      <multiplicity id="161" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="35" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="162">    
+    <end type="SOURCE" refId="15" navigable="false">      
+      <attribute id="163" name="callback"/>      
+      <multiplicity id="164" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="25" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="165">    
+    <end type="SOURCE" refId="6" navigable="false">      
+      <attribute id="166" name="blinkAnim"/>      
+      <multiplicity id="167" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="18" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <nesting id="168">    
+    <end type="SOURCE" refId="65"/>    
+    <end type="TARGET" refId="39"/>  
+  </nesting>  
+  <generalization id="169">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="44"/>  
+  </generalization>  
+  <generalization id="170">    
+    <end type="SOURCE" refId="45"/>    
+    <end type="TARGET" refId="44"/>  
+  </generalization>  
+  <association id="171">    
+    <end type="SOURCE" refId="23" navigable="false">      
+      <attribute id="172" name="item"/>      
+      <multiplicity id="173" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="68" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="174">    
+    <end type="SOURCE" refId="20" navigable="false">      
+      <attribute id="175" name="items"/>      
+      <multiplicity id="176" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="44" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="177">    
+    <end type="SOURCE" refId="60" navigable="false">      
+      <attribute id="178" name="user"/>      
+      <multiplicity id="179" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="13" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="180">    
+    <end type="SOURCE" refId="6" navigable="false">      
+      <attribute id="181" name="swipeBuilder"/>      
+      <multiplicity id="182" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="14" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="183">    
+    <end type="SOURCE" refId="23" navigable="false">      
+      <attribute id="184" name="pet"/>      
+      <multiplicity id="185" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="48" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="186">    
+    <end type="SOURCE" refId="6" navigable="false">      
+      <attribute id="187" name="dragBuilder"/>      
+      <multiplicity id="188" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="31" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>

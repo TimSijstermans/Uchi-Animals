@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/gradient_bg" >
+
+    <LinearLayout
+        android:id="@+id/optionsTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:background="#000000"
+        android:baselineAligned="false"
+        android:orientation="horizontal"
+        android:weightSum="5" >
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal" >
+
+            <ImageButton
+                android:id="@+id/backBtn"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginBottom="2dp"
+                android:layout_marginLeft="2dp"
+                android:layout_marginTop="2dp"
+                android:background="@drawable/backbtn"
+                android:contentDescription="@string/Button"
+                android:onClick="onBackClicked" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="3"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/Title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/optionsTitle"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textSize="17pt" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/exitBtn"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_gravity="right"
+                android:layout_marginBottom="2dp"
+                android:layout_marginRight="2dp"
+                android:layout_marginTop="5dp"
+                android:contentDescription="@string/Button"
+                android:onClick="onExitClick"
+                android:src="@drawable/exitbtn" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/optionsLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_below="@+id/optionsTitle" >
+
+        <RelativeLayout
+            android:id="@+id/soundLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/textSound"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                android:text="@string/sound_tf"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+            <RelativeLayout
+                android:id="@+id/soundBtnLayout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textSound"
+                android:layout_centerHorizontal="true" >
+
+                <TextView
+                    android:id="@+id/musicText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="27dp"
+                    android:layout_marginTop="20dp"
+                    android:text="@string/music_tf"
+                    android:textColor="#000000" />
+
+                <TextView
+                    android:id="@+id/sfxText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@+id/musicText"
+                    android:layout_below="@+id/musicText"
+                    android:layout_marginTop="20dp"
+                    android:text="@string/sfx_tf"
+                    android:textColor="#000000" />
+
+                <CheckBox
+                    android:id="@+id/musicCheck"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@+id/musicText"
+                    android:layout_alignBottom="@+id/musicText"
+                    android:layout_marginLeft="36dp"
+                    android:layout_toRightOf="@+id/musicText" />
+
+                <CheckBox
+                    android:id="@+id/sfxCheck"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@+id/musicCheck"
+                    android:layout_below="@+id/musicCheck"
+                    android:layout_marginTop="4dp" />
+            </RelativeLayout>
+
+            <View
+                android:id="@+id/separator2"
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/soundBtnLayout"
+                android:layout_marginTop="25dp"
+                android:background="#000000" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/langLayout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/soundLayout" >
+
+            <TextView
+                android:id="@+id/textLang"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                android:text="@string/lang_tf"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+            <View
+                android:id="@+id/separator3"
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/langBtnLayout"
+                android:layout_marginTop="30dp"
+                android:background="#000000" />
+
+            <RelativeLayout
+                android:id="@+id/langBtnLayout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textLang"
+                android:layout_centerHorizontal="true" >
+
+                <RadioGroup
+                    android:id="@+id/radioGroupLanguage"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true" >
+
+                    <RadioButton
+                        android:id="@+id/optionDutch"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/description_dutch" />
+
+                    <RadioButton
+                        android:id="@+id/optionEnglish"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/description_english" />
+                </RadioGroup>
+
+            </RelativeLayout>
+
+            <ImageView
+                android:id="@+id/dutchFlag"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/englishFlag"
+                android:layout_alignTop="@+id/langBtnLayout"
+                android:layout_marginTop="14dp"
+                android:adjustViewBounds="true"
+                android:contentDescription="Nederlands"
+                android:src="@drawable/dutch_flag" />
+
+            <ImageView
+                android:id="@+id/englishFlag"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/langBtnLayout"
+                android:layout_marginBottom="16dp"
+                android:layout_toLeftOf="@+id/langBtnLayout"
+                android:adjustViewBounds="true"
+                android:contentDescription="English"
+                android:src="@drawable/english_flag" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/conferLayout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/langLayout" >
+
+            <TextView
+                android:id="@+id/conmode_tf"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                android:text="@string/conmode_tf"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+            <ToggleButton
+                android:id="@+id/btnConference"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/conmode_tf"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="15dp"
+                android:gravity="center_vertical"
+                android:text="@string/cononoff_tf" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="sponge" type="id"/>
+    <item name="hand" type="id"/>
+    <item name="tennisBall" type="id"/>
+    <item name="gameLayout" type="id"/>
+</resources>
